@@ -5,9 +5,9 @@ void main() {
       new MaterialApp(
           title: 'FirstFlutter',
           theme: new ThemeData(
-              primarySwatch: Colors.lightGreen
+              primarySwatch: Colors.blue
           ),
-          home: new HomeWidget('Yay Flutter!')
+          home: new HomeWidget('Flutter!')
       )
   );
 }
