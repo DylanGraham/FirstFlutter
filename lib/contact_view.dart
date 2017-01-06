@@ -8,11 +8,11 @@ class _ContactListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new ListItem(
-      leading: new CircleAvatar(
-        child: new Text(_contact.fullName[0])
-      ),
-      title: new Text(_contact.fullName),
-      subtitle: new Text(_contact.email)
+        leading: new CircleAvatar(
+            child: new Text(_contact.fullName[0])
+        ),
+        title: new Text(_contact.fullName),
+        subtitle: new Text(_contact.email)
     );
   }
 
