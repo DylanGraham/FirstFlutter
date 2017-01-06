@@ -25,7 +25,7 @@ class HomeWidget extends StatelessWidget {
         ),
         body: new Center(
             child: new Text('Demo')
-        )
+        ),
     );
   }
 }
